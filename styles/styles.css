@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* shared styles */
+*{
+    font-family: Azeret Mono;
+    color: #0D1321;
+}
+/* header */
+.header-top{
+    display: flex;
+    justify-content:space-between;
+    margin: 50px 150px;
+    font-size: 28px;
+    font-weight: 800;
+    align-items: center;
+}
+.btn-top{
+    font-size: 19px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 17px 24px;
+    opacity: 0.8;
+    border: 1px solid #0D1321;
+    background-color: white;
+    display: flex;
+    width: 244px;
+    height: 57px;
+}
