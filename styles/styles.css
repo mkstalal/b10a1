@@ -5,6 +5,14 @@
     color: #0D1321;
 }
 /* header */
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+.section-subtitle{
+    font-size: 24px;
+    font-weight: 700;
+}
 .header-top{
     display: flex;
     justify-content:space-between;
@@ -26,4 +34,197 @@
     display: flex;
     width: 244px;
     height: 57px;
+}
+.banner-profile-pic{
+    width: 240px;
+    height: 240px;
+}
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+    display:flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+.banner-content{
+    width: 998px;
+    height: 581px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 32px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner-description{
+    width: 852px;
+}
+.btn-banner{
+    font-size: 19px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 21px 24px;
+    border: 1px solid #0D1321;
+    background-color: #0D1321;
+    color: white;
+    display: flex;
+    width: 244px;
+    height: 57px;
+    text-align: center;
+}
+main{
+    max-width: 1140px; 
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.why-web{
+    padding: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    background-color: rgba(13, 19, 33, 0.02);
+    /* background-color: blue; */
+    border-radius: 20px;
+}
+.learn-more-left{
+    /* width: 946px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
+    padding: 48px;
+    margin: 32px;
+    /* background-color: lightblue; */
+}
+.learn-more-right{
+    /* width: 946px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
+    padding: 48px;
+    margin: 32px;
+    /* background-color: lightblue; */
+}
+.learn-more-container{
+    width: 477px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* background-color: lightgreen; */
+}
+.learn-more-img{
+    width: 260px;
+    height: 217px;
+    /* background-color: green; */
+}
+.learn-more-button{
+    width: 150px;
+    height: 48px;
+    font-size: 20px;
+    background-color: white;
+}
+.inspiration{
+    padding: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* background-color: brown; */
+}
+.youtube-video{
+    max-width: 1100px;
+    padding: 20px;
+    margin: 20px;;
+    background: lightseagreen;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.target{
+    padding: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* background-color: yellowgreen; */
+    border-radius: 16px;
+}
+.target-container{
+    display: flex; 
+    gap: 24px;
+    padding: 40px;
+    text-align: left;
+    justify-content: space-around;
+}
+.target-content-1{
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-content-2{
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-content-3{
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.support{
+    /* padding: 80px 97px 80px 97px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: 1140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+.support p{
+    color: white;
+}
+.btn-submit{
+    font-size: 19px;
+    font-weight: 600;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    border-radius: 8px;
+    padding: 17px 20px;
+    background-color: white;
+    width: 120px;
+}
+footer{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
