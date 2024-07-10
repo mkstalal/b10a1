@@ -16,7 +16,7 @@
 .header-top{
     display: flex;
     justify-content:space-between;
-    margin: 50px 150px;
+    margin: 50px 50px;
     font-size: 28px;
     font-weight: 800;
     align-items: center;
@@ -43,6 +43,7 @@
     background-image: url("../assets/Hero-bg.png");
     display:flex;
     justify-content: center;
+    height: 652px;
     /* text-align: center; */
 }
 .banner-content{
